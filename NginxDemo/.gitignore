@@ -1,5 +1,5 @@
 *.png
 .settings
 .classpath
-.project/
+.project
 target/
