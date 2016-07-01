@@ -1,4 +1,4 @@
-# AS-Experiments
+﻿# AS-Experiments
 Sparkjava application to play with mongodb, lambda expressions and other goodies
 
 ## Description
@@ -16,6 +16,11 @@ All migraine episodes can be consulted by a Doctor, whom also can give back the 
 * Clone the repository in your projects directory, cd into it and run:
 
 > mvn compile exec:java -Dexec.mainClass="com.aosorio.nginx.Main"
+
+NOTE: on the windows pwershell you need to do the following:
+
+mvn compile exec:java "-Dexec.mainClass=com.aosorio.nginx.Main"
+
 
 * Finally go to your browser and enter to the following URI:
 
