@@ -9,15 +9,13 @@ All migraine episodes can be consulted by a Doctor, whom also can give back the 
 
 * Java JDK 1.8
 * Sparkjava 2.5
-* Freemarker
-* MongoDB 3.2x
 * Maven
 
 ## ¿How to use?
 
 * Clone the repository in your projects directory, cd into it and run:
 
-> mvn compile exec:java -Dexec.mainClass=App
+> mvn compile exec:java -Dexec.mainClass="com.aosorio.nginx.Main"
 
 * Finally go to your browser and enter to the following URI:
 
